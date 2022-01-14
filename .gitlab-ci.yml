@@ -1,0 +1,11 @@
+before_script:
+    - docker info
+    
+build_image:
+  script:
+    - docker stop warehouse warehouse_redis || true
+    - docker system prune -a -f
+    - docker-compose build
+    - docker-compose up -d
+  tags:
+    - warehouse
