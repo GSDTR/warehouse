@@ -1,0 +1,89 @@
+label {
+    background-color: #f2f2f2;
+    font-size: 16px;
+    font-weight: normal !important;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: normal !important;
+}
+
+p {
+    font-size: 16px;
+    font-weight: normal !important;
+}
+
+form {
+    margin: 0px 0px 0px 0px;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+}
+
+.col-submit {
+    float: right;
+    width: 15%;
+    background-color: #4CAF50;
+}
+
+.button {
+    float: right;
+    width: 20%;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    border-spacing: 3px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.Row
+{
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px;
+}
+
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: table-cell;
+}

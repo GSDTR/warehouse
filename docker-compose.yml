@@ -1,0 +1,37 @@
+version: "2"
+services:
+  warehouse:
+    build: .
+    ports:
+      - "8085:8085"
+      - "127.0.0.1:4900:4900"
+    container_name: warehouse
+    image: warehouse
+    volumes:
+      - /home/al/docker/warehouse/data/warehouse:/data
+    tty: true
+    links:
+      - postgres
+      - redis
+
+  redis:
+    image: redis:4-alpine
+    container_name: warehouse_redis
+    volumes:
+      - /home/al/docker/warehouse/data/redis:/data
+
+  postgres:
+    image: postgres
+    container_name: warehouse_postgres
+    volumes:
+      - /home/al/docker/warehouse/data/postgres:/data
+    environment:
+      POSTGRES_DB: warehouse
+      POSTGRES_USER: warehouse
+      POSTGRES_PASSWORD: warehouse1
+
+networks:
+  default:
+    external:
+      name: warehouse
+

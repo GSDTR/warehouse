@@ -1,0 +1,8 @@
+digikey_client_secret nP5oX4kJ8sG7aD7yW2jH4rT0jD3cN3nC8uH7vU1pO0nQ4oA7gH
+digikey_client_id 181733e2-f6d8-4e86-b19b-53e6c81e9849
+digikey_redirect_uri https://m2m-tele.com:8085
+digikey_username almaz1c
+digikey_password Reutov20,100%
+digikey_autorization_code a5GJDcRFIXD1wJXWktgytSuGeQ9OyEbDM3jQzgAD
+digikey_access_token 2pJZ01xGyVBiWg4Csx5JURnPlyqz
+digikey_refresh_token syLmQ3lOyblKO78UzNHRYtsFjlGmuwrhVEQqNqxB6E

@@ -1,0 +1,15 @@
+digikey_client_secret B2gK2pD2yD6xR2hG2vC4kY7bC0eB0lA4wT7sT6wS3gI8kB6oV3
+digikey_client_id e9a31104-81f2-4110-918b-4e558068f42b
+digikey_redirect_uri https://m2m-tele.com:8085/digikeyOAuth/
+digikey_username almaz1c
+digikey_password Reutov20,100%%
+digikey_autorization_code gc4yfZKqx_pK6QNLf5UK5lIwfyJZJoJGWgqMFwAD
+digikey_access_token KaL1SrckHRYHdZ6V1Jt6MZBvq2cD
+digikey_refresh_token XfWPnhyZLdcBQ9wDxAnSCvk5eZBF60LGGoAUxtM53D
+excel_file_to_read ./data/parts.xlsx
+postgres_db_name warehouse
+postgres_user warehouse
+postgres_password warehouse1
+postgres_ssl disable
+postgres_host postgres
+mqtt_server_addr tcp://m2m-tele.com:1883

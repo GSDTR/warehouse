@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#status {
+  display: none;
+}
+
+label {
+  background-color: #4ccf50;
+  display: inline-block;
+}
+
+.button > button {
+  pointer-events: none;
+  padding: 4px;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#status:not(:checked) ~ .button > button {
+  background-color: #777777;
+}
+
+#status:checked ~ .button > button {
+  background-color: #cacaca;
+}
+
+.inline {
+    display: inline-block;
+    margin-left: 1em;
+    border-style: double;
+    padding-top: 5px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.right {
+    align: right;
+}
+
+h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+h5 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+/*
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+    background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+    background: linear-gradient(to right, #25c481, #25b7c4);
+    font-family: 'Roboto', sans-serif;
+}
+*/
+
+.tabs {
+  width: 100%;
+  display: inline-block;
+  margin-right: 30px;
+  vertical-align: top;
+}
+
+.tabs-1 .tab-links {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #CCC;
+  border-bottom: 1px solid #868686;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 35px;
+  position: relative;
+  top: 5px;
+}
+
+.tabs-1 .tab-link {
+  padding: 0 15px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  display: inline-block;
+  position: relative;
+  height: 40px;
+  line-height: 41px;
+  top: -6px;
+  left: -1px;
+}
+
+.tabs-1 .tab-link-active {
+  font-weight: bold;
+  border: 1px solid #868686;
+  border-bottom: 1px solid white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: white;
+}
+
+.tabs-1 .content {
+  padding: 15px;
+  border: 1px solid #868686;
+  border-top: 1px solid transparent;
+}
